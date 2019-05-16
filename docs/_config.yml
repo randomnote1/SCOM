@@ -1,3 +1,4 @@
+future: true
 markdown: kramdown
 permalink: /scom/blog/:year/:month/:day/:title
 theme: jekyll-theme-hacker
