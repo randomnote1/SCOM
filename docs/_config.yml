@@ -1,3 +1,3 @@
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /scom/blog/:year/:month/:day/:title
 theme: jekyll-theme-hacker
