@@ -1,5 +1,7 @@
 ---
-title: Using the Asset Status Property in SCOM
+date: 2019-05-16
+layout: post
+title: "Using the Asset Status Property in SCOM"
 ---
 
 # Using the Asset Status Property in SCOM
