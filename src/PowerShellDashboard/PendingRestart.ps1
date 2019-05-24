@@ -18,10 +18,10 @@ $sortTable = @{
 # Get the reboot required monitor object
 $rebootRequiredMonitor = Get-SCOMMonitor -DisplayName 'Server Pending Restart Monitor'
 
-# Get the class which is targetd by the reboot required monitor
+# Get the class which is targeted by the reboot required monitor
 $operatingSystemClass = Get-SCOMClass -Id $rebootRequiredMonitor.Target.Id
 
-# Get all instances of the class (computers)
+# Get all instances of the class (operating system)
 $operatingSystems = Get-SCOMClassInstance -Class $operatingSystemClass
 
 # Build the collection to use when searching for the monitor state
